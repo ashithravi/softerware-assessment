@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7fafc;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  padding-bottom: 20px;
+  color: white;
+}
+
+.logo-container, .weather-info {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-info img {
+  height: 100px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+@media screen and (min-width: 768px) {
+  .App-header {
+    flex-direction: row;
+    padding-bottom: 0px;
+  }
+}
